@@ -4,8 +4,11 @@ Building a Preprocessing, TF-IDF, CosineSimilarity functions from scratch
 Considering the following simple documents:
 
 Doc1: "So far in this course, we have studied association rule mining and we learned about frequent itemsets"
+
 Doc2: “During the past couple of weeks, we started learning about Text Mining"
+
 Doc3: "Data Mining and Text Mining are fun topics!"
+
 Doc4: "Holidays are fun! I can’t wait till my next holiday…"
 
 a) Write a function preprocessCorpus(corpus) that takes in a text corpus represented as a list of strings (each string represents a document). The function should return a similar list which contains a copy of the original data after applying casefolding, stepword removal, and stemming.
